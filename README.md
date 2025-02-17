@@ -1,0 +1,3 @@
+# JavaScript Bug: Unexpected 0 Return with Double Null Input
+
+This repository demonstrates a subtle bug in JavaScript related to null handling.  The function `foo` is intended to add two numbers. However, it returns 0 if either input is null. The bug occurs when both inputs are null. The current implementation incorrectly returns 0 instead of perhaps throwing an error or handling this edge case more appropriately. The solution file provides a corrected version of the function.
